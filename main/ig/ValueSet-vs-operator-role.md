@@ -50,7 +50,7 @@ Rôles des professionnels de santé opérant au sein de l'entité émettrice d'u
   "name" : "VSOperatorRole",
   "title" : "Rôles des opérateurs (Hub Santé)",
   "status" : "draft",
-  "date" : "2026-03-17T13:54:13+00:00",
+  "date" : "2026-03-17T14:36:04+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

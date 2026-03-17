@@ -3,7 +3,7 @@ HubSante : Validation Results
 
 err = 1, warn = 431, info = 207
 IG Publisher Version: 2.1.2
-Generated Tue Mar 17 13:56:16 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.hubsante#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/hubsante)
+Generated Tue Mar 17 14:37:20 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.hubsante#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/hubsante)
  Build Errors : 1236 / 3 / 0
  /home/runner/work/SAMU-Hub-sante-interop-ig/SAMU-Hub-sante-interop-ig/igSource/fsh-generated/resources/CodeSystem-cs-caller-communication : 0 / 2 / 3
  /home/runner/work/SAMU-Hub-sante-interop-ig/SAMU-Hub-sante-interop-ig/igSource/fsh-generated/resources/CodeSystem-cs-caller-type : 0 / 2 / 3
