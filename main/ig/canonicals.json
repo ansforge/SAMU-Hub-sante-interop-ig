@@ -1,0 +1,567 @@
+[{
+  "id" : "cs-caller-communication",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-caller-communication",
+  "version" : "0.1.0",
+  "name" : "CSCallerCommunication"
+},
+{
+  "id" : "cs-caller-type",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-caller-type",
+  "version" : "0.1.0",
+  "name" : "CSCallerType"
+},
+{
+  "id" : "cs-case-attribution",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-case-attribution",
+  "version" : "0.1.0",
+  "name" : "CSCaseAttribution"
+},
+{
+  "id" : "cs-case-priority",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-case-priority",
+  "version" : "0.1.0",
+  "name" : "CSCasePriority"
+},
+{
+  "id" : "cs-case-status",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-case-status",
+  "version" : "0.1.0",
+  "name" : "CSCaseStatus"
+},
+{
+  "id" : "cs-contact-channel",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-contact-channel",
+  "version" : "0.1.0",
+  "name" : "CSContactChannel"
+},
+{
+  "id" : "cs-contact-type",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-contact-type",
+  "version" : "0.1.0",
+  "name" : "CSContactType"
+},
+{
+  "id" : "cs-coord-precision",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-coord-precision",
+  "version" : "0.1.0",
+  "name" : "CSCoordPrecision"
+},
+{
+  "id" : "cs-decision-type",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-decision-type",
+  "version" : "0.1.0",
+  "name" : "CSDecisionType"
+},
+{
+  "id" : "cs-external-id-source",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-external-id-source",
+  "version" : "0.1.0",
+  "name" : "CSExternalIdSource"
+},
+{
+  "id" : "cs-external-info-type",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-external-info-type",
+  "version" : "0.1.0",
+  "name" : "CSExternalInfoType"
+},
+{
+  "id" : "cs-external-location-id-source",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-external-location-id-source",
+  "version" : "0.1.0",
+  "name" : "CSExternalLocationIdSource"
+},
+{
+  "id" : "cs-intervention-type",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-intervention-type",
+  "version" : "0.1.0",
+  "name" : "CSInterventionType"
+},
+{
+  "id" : "cs-operator-role",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-operator-role",
+  "version" : "0.1.0",
+  "name" : "CSOperatorRole"
+},
+{
+  "id" : "cs-orientation-type",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-orientation-type",
+  "version" : "0.1.0",
+  "name" : "CSOrientationType"
+},
+{
+  "id" : "cs-patient-care-level",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-patient-care-level",
+  "version" : "0.1.0",
+  "name" : "CSPatientCareLevel"
+},
+{
+  "id" : "cs-perimeter",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-perimeter",
+  "version" : "0.1.0",
+  "name" : "CSPerimeter"
+},
+{
+  "id" : "cs-qualification-origin",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-qualification-origin",
+  "version" : "0.1.0",
+  "name" : "CSQualificationOrigin"
+},
+{
+  "id" : "cs-resource-type",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-resource-type",
+  "version" : "0.1.0",
+  "name" : "CSResourceType"
+},
+{
+  "id" : "cs-sex",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/CodeSystem/cs-sex",
+  "version" : "0.1.0",
+  "name" : "CSSex"
+},
+{
+  "id" : "ans.fhir.fr.hubsante",
+  "type" : "ImplementationGuide",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ImplementationGuide/ans.fhir.fr.hubsante",
+  "version" : "0.1.0",
+  "name" : "HubSante"
+},
+{
+  "id" : "lm-access",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-access",
+  "version" : "0.1.0",
+  "name" : "AccessLogical"
+},
+{
+  "id" : "lm-additional-information",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-additional-information",
+  "version" : "0.1.0",
+  "name" : "AdditionalInformationLogical"
+},
+{
+  "id" : "lm-administrative-file",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-administrative-file",
+  "version" : "0.1.0",
+  "name" : "AdministrativeFileLogical"
+},
+{
+  "id" : "lm-alert",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-alert",
+  "version" : "0.1.0",
+  "name" : "AlertLogical"
+},
+{
+  "id" : "lm-caller",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-caller",
+  "version" : "0.1.0",
+  "name" : "CallerLogical"
+},
+{
+  "id" : "lm-case-details",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-case-details",
+  "version" : "0.1.0",
+  "name" : "CaseDetailsLogical"
+},
+{
+  "id" : "lm-city",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-city",
+  "version" : "0.1.0",
+  "name" : "CityLogical"
+},
+{
+  "id" : "lm-contact",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-contact",
+  "version" : "0.1.0",
+  "name" : "ContactLogical"
+},
+{
+  "id" : "lm-coord",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-coord",
+  "version" : "0.1.0",
+  "name" : "CoordLogical"
+},
+{
+  "id" : "lm-create-case-health",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-create-case-health",
+  "version" : "0.1.0",
+  "name" : "CreateCaseHealthLogical"
+},
+{
+  "id" : "lm-custom-map",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-custom-map",
+  "version" : "0.1.0",
+  "name" : "CustomMapLogical"
+},
+{
+  "id" : "lm-decision",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-decision",
+  "version" : "0.1.0",
+  "name" : "DecisionLogical"
+},
+{
+  "id" : "lm-destination",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-destination",
+  "version" : "0.1.0",
+  "name" : "DestinationLogical"
+},
+{
+  "id" : "lm-detailed-address",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-detailed-address",
+  "version" : "0.1.0",
+  "name" : "DetailedAddressLogical"
+},
+{
+  "id" : "lm-detailed-name",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-detailed-name",
+  "version" : "0.1.0",
+  "name" : "DetailedNameLogical"
+},
+{
+  "id" : "lm-external-id",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-external-id",
+  "version" : "0.1.0",
+  "name" : "ExternalIdLogical"
+},
+{
+  "id" : "lm-external-info",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-external-info",
+  "version" : "0.1.0",
+  "name" : "ExternalInfoLogical"
+},
+{
+  "id" : "lm-external-location-id",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-external-location-id",
+  "version" : "0.1.0",
+  "name" : "ExternalLocationIdLogical"
+},
+{
+  "id" : "lm-general-practitioner",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-general-practitioner",
+  "version" : "0.1.0",
+  "name" : "GeneralPractitionerLogical"
+},
+{
+  "id" : "lm-geometry",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-geometry",
+  "version" : "0.1.0",
+  "name" : "GeometryLogical"
+},
+{
+  "id" : "lm-health-motive",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-health-motive",
+  "version" : "0.1.0",
+  "name" : "HealthMotiveLogical"
+},
+{
+  "id" : "lm-highway",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-highway",
+  "version" : "0.1.0",
+  "name" : "HighwayLogical"
+},
+{
+  "id" : "lm-hypothesis",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-hypothesis",
+  "version" : "0.1.0",
+  "name" : "HypothesisLogical"
+},
+{
+  "id" : "lm-identity",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-identity",
+  "version" : "0.1.0",
+  "name" : "IdentityLogical"
+},
+{
+  "id" : "lm-ins-strict-features",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-ins-strict-features",
+  "version" : "0.1.0",
+  "name" : "InsStrictFeaturesLogical"
+},
+{
+  "id" : "lm-location",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-location",
+  "version" : "0.1.0",
+  "name" : "LocationLogical"
+},
+{
+  "id" : "lm-location-kind",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-location-kind",
+  "version" : "0.1.0",
+  "name" : "LocationKindLogical"
+},
+{
+  "id" : "lm-main-diagnosis",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-main-diagnosis",
+  "version" : "0.1.0",
+  "name" : "MainDiagnosisLogical"
+},
+{
+  "id" : "lm-medical-note",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-medical-note",
+  "version" : "0.1.0",
+  "name" : "MedicalNoteLogical"
+},
+{
+  "id" : "lm-notes",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-notes",
+  "version" : "0.1.0",
+  "name" : "NotesLogical"
+},
+{
+  "id" : "lm-operator",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-operator",
+  "version" : "0.1.0",
+  "name" : "OperatorLogical"
+},
+{
+  "id" : "lm-other-diagnosis",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-other-diagnosis",
+  "version" : "0.1.0",
+  "name" : "OtherDiagnosisLogical"
+},
+{
+  "id" : "lm-patient",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-patient",
+  "version" : "0.1.0",
+  "name" : "PatientLogical"
+},
+{
+  "id" : "lm-patient-detail",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-patient-detail",
+  "version" : "0.1.0",
+  "name" : "PatientDetailLogical"
+},
+{
+  "id" : "lm-personal-contact",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-personal-contact",
+  "version" : "0.1.0",
+  "name" : "PersonalContactLogical"
+},
+{
+  "id" : "lm-point",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-point",
+  "version" : "0.1.0",
+  "name" : "PointLogical"
+},
+{
+  "id" : "lm-qualification",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-qualification",
+  "version" : "0.1.0",
+  "name" : "QualificationLogical"
+},
+{
+  "id" : "lm-risk-threat",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-risk-threat",
+  "version" : "0.1.0",
+  "name" : "RiskThreatLogical"
+},
+{
+  "id" : "lm-way-name",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-way-name",
+  "version" : "0.1.0",
+  "name" : "WayNameLogical"
+},
+{
+  "id" : "lm-whats-happen",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/StructureDefinition/lm-whats-happen",
+  "version" : "0.1.0",
+  "name" : "WhatsHappenLogical"
+},
+{
+  "id" : "vs-caller-communication",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-caller-communication",
+  "version" : "0.1.0",
+  "name" : "VSCallerCommunication"
+},
+{
+  "id" : "vs-caller-type",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-caller-type",
+  "version" : "0.1.0",
+  "name" : "VSCallerType"
+},
+{
+  "id" : "vs-case-attribution",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-case-attribution",
+  "version" : "0.1.0",
+  "name" : "VSCaseAttribution"
+},
+{
+  "id" : "vs-case-priority",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-case-priority",
+  "version" : "0.1.0",
+  "name" : "VSCasePriority"
+},
+{
+  "id" : "vs-case-status",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-case-status",
+  "version" : "0.1.0",
+  "name" : "VSCaseStatus"
+},
+{
+  "id" : "vs-contact-channel",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-contact-channel",
+  "version" : "0.1.0",
+  "name" : "VSContactChannel"
+},
+{
+  "id" : "vs-contact-type",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-contact-type",
+  "version" : "0.1.0",
+  "name" : "VSContactType"
+},
+{
+  "id" : "vs-coord-precision",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-coord-precision",
+  "version" : "0.1.0",
+  "name" : "VSCoordPrecision"
+},
+{
+  "id" : "vs-decision-type",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-decision-type",
+  "version" : "0.1.0",
+  "name" : "VSDecisionType"
+},
+{
+  "id" : "vs-external-id-source",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-external-id-source",
+  "version" : "0.1.0",
+  "name" : "VSExternalIdSource"
+},
+{
+  "id" : "vs-external-info-type",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-external-info-type",
+  "version" : "0.1.0",
+  "name" : "VSExternalInfoType"
+},
+{
+  "id" : "vs-external-location-id-source",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-external-location-id-source",
+  "version" : "0.1.0",
+  "name" : "VSExternalLocationIdSource"
+},
+{
+  "id" : "vs-intervention-type",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-intervention-type",
+  "version" : "0.1.0",
+  "name" : "VSInterventionType"
+},
+{
+  "id" : "vs-operator-role",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-operator-role",
+  "version" : "0.1.0",
+  "name" : "VSOperatorRole"
+},
+{
+  "id" : "vs-orientation-type",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-orientation-type",
+  "version" : "0.1.0",
+  "name" : "VSOrientationType"
+},
+{
+  "id" : "vs-patient-care-level",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-patient-care-level",
+  "version" : "0.1.0",
+  "name" : "VSPatientCareLevel"
+},
+{
+  "id" : "vs-perimeter",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-perimeter",
+  "version" : "0.1.0",
+  "name" : "VSPerimeter"
+},
+{
+  "id" : "vs-qualification-origin",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-qualification-origin",
+  "version" : "0.1.0",
+  "name" : "VSQualificationOrigin"
+},
+{
+  "id" : "vs-resource-type",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-resource-type",
+  "version" : "0.1.0",
+  "name" : "VSResourceType"
+},
+{
+  "id" : "vs-sex",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/hubsante/ValueSet/vs-sex",
+  "version" : "0.1.0",
+  "name" : "VSSex"
+}]
